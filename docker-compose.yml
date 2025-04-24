@@ -6,3 +6,4 @@ services:
       - "8000:8000"
     environment:
       - API_KEY_RETAILCRM=${API_KEY_RETAILCRM}
+      - MY_CRM_NAME=${MY_CRM_NAME}
